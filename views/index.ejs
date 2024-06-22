@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Card Storage </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
+</head>
+<body  class="bg-dark w-full h-full bg-zinc-900 text-white">
+
+    <div>
+        <h1 class="text-center text-3xl bold mt-5 stylish-regular">Anime Card Storage</h1>
+        <form action="/create" class="w-2/5 m-auto text-center" method="post">
+            <input type="text" placeholder="Enter Anime Character name" name="name" class="text-center w-full mt-4 h-10 bg-zinc-600 text-white rounded-lg p-2">
+            <input type="text" placeholder="Enter Anime nickname" name="nickname" class="text-center w-full mt-4 h-10 bg-zinc-600 text-white rounded-lg p-2">
+            <input type="text" placeholder="Enter Image Url" name="url" class="text-center w-full mt-4 h-10 bg-zinc-600 text-white rounded-lg p-2">
+            <input type="submit" value="Create the Anime Card" class="bg-blue-500 text-white mt-5 rounded p-2">
+            <a href="/show" class="bg-blue-500 text-white mt-5 rounded p-2 ml-5">See the Anime Cards</a>
+        </form>
+    </div>
+
+
+<!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
